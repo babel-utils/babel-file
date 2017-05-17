@@ -1,0 +1,15 @@
+{
+  "name": "babel-file",
+  "version": "0.0.0",
+  "description": "Easily create a Babel File object",
+  "main": "index.js",
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.46.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-errors": "^1.0.0"
+  }
+}
