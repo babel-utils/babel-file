@@ -1,6 +1,6 @@
 {
   "name": "babel-file",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Easily create a Babel File object",
   "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
