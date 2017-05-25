@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "babel-core": "^6.24.1",
-    "babel-errors": "^1.0.0"
+    "babel-errors": "^1.0.1"
   }
 }
