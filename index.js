@@ -32,7 +32,7 @@ export type File = {
 
 function createFile(
   code /*: string */,
-  opts /*: Object */,
+  opts /*: Object */
 ) /*: File */ {
   let file = new babel.File(opts);
 
