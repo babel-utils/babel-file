@@ -1,6 +1,6 @@
 {
   "name": "babel-file",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Easily create a Babel File object",
   "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
@@ -9,7 +9,7 @@
     "flow-bin": "^0.46.0"
   },
   "dependencies": {
-    "babel-core": "^6.24.1",
+    "@babel/core": "^7.0.0-beta.56",
     "babel-errors": "^1.0.1"
   }
 }
