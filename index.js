@@ -2,7 +2,6 @@
 'use strict';
 
 const babel = require('@babel/core');
-const {wrapErrorWithCodeFrame} = require('babel-errors');
 
 /*::
 export type File = {
