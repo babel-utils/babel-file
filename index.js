@@ -33,9 +33,7 @@ function createFile(
   code /*: string */,
   opts /*: Object */
 ) /*: File */ {
-  let file;
-
-  let ast = babel.parseSync(code, { ...opts });
+  let ast = babel.parseSync(code, opts);
   return new babel.File(opts, { code, ast });
 }
 
