@@ -1,8 +1,7 @@
 // @flow
 'use strict';
 
-const babel = require('babel-core');
-const {wrapErrorWithCodeFrame} = require('babel-errors');
+const babel = require('@babel/core');
 
 /*::
 export type File = {
@@ -34,16 +33,8 @@ function createFile(
   code /*: string */,
   opts /*: Object */
 ) /*: File */ {
-  let file = new babel.File(opts);
-
-  try {
-    file.addCode(code);
-    file.parseCode(code);
-  } catch (err) {
-    throw wrapErrorWithCodeFrame(file, err);
-  }
-
-  return file;
+  let ast = babel.parseSync(code, opts);
+  return new babel.File(opts, { code, ast });
 }
 
 module.exports = createFile;
